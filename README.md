@@ -4,6 +4,8 @@ An elegant, static podcast website: landing page with one featured episode,
 a 20-episode catalog (mock data, no feeds), About, and FAQ. Built with
 Next.js static export — no database, no server.
 
+<img width="916" height="471" alt="Captura de pantalla 2026-10-03 141822" src="https://github.com/user-attachments/assets/001d85d7-2f37-449b-8a46-810fe3593ca3" />
+
 ## Commands
 
 ```bash
