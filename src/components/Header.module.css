@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+  align-items: baseline;
+  justify-content: space-between;
+  padding: var(--space-5) var(--gutter);
+  max-width: var(--page-max);
+  margin-inline: auto;
+  width: 100%;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-md);
+  color: var(--color-ink);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.navList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+}
+
+.navLink {
+  color: var(--color-ink);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: var(--space-2) var(--space-1);
+  border-bottom: 2px solid transparent;
+  transition:
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.navLink:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}

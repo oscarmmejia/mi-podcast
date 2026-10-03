@@ -1,0 +1,17 @@
+.player {
+  width: 100%;
+}
+
+.player audio {
+  width: 100%;
+  min-height: 44px;
+}
+
+.unavailable {
+  padding: var(--space-3) var(--space-4);
+  border: 1px dashed var(--color-line);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-bg) 70%, var(--color-surface));
+  color: var(--color-ink-muted);
+  font-size: var(--text-sm);
+}
